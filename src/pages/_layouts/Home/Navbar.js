@@ -22,7 +22,7 @@ export const Navbar = () => {
             <Scrollbars style={{ width: "100%", height: "100%" }}>
                 <div className="sidebar-header">
                     <h3>
-                        <Link to="/">React-component-depot</Link>
+                        <Link to="/">Code By Murtaza</Link>
                     </h3>
                     <p className="mb-0 text-white">{ThemeSwitcher}</p>
                     <p className="mb-0 mt-2">
@@ -30,10 +30,10 @@ export const Navbar = () => {
                             <a
                                 class="github-button mr-3"
                                 target="_blank"
-                                href="https://github.com/codegeous/react-component-depot"
+                                href="https://github.com/codebymurtaza"
                                 data-size="large"
                                 data-show-count="true"
-                                aria-label="Star codegeous/react-component-depot on GitHub"
+                                aria-label="Star Code by murtaza on GitHub"
                             >
                                 Star
                             </a>
@@ -41,7 +41,7 @@ export const Navbar = () => {
 
                         <div
                             class="g-ytsubscribe ml-3"
-                            data-channelid="UCdItDI6oTgPW7l9WOJI7ItA"
+                            data-channelid="UC7SJSnUPeGPidd9YNgCKLkA"
                             data-layout="default"
                             data-count="default"
                             style={{ height: "35px" }}
@@ -52,11 +52,11 @@ export const Navbar = () => {
                 <ul className="list-unstyled components">
                     <p>
                         <a
-                            href="https://www.youtube.com/channel/UCdItDI6oTgPW7l9WOJI7ItA/videos"
+                            href="https://www.youtube.com/channel/UC7SJSnUPeGPidd9YNgCKLkA"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            D'Coders Youtube Page
+                            Code by murtaza Youtube Page
                         </a>
                     </p>
 
@@ -111,7 +111,7 @@ export const Navbar = () => {
                 <ul className="list-unstyled CTAs">
                     <li>
                         <a
-                            href="https://github.com/codegeous/react-component-depot"
+                            href="https://github.com/codebymurtaza"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="download"
@@ -120,7 +120,7 @@ export const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <Link to="/built-with-react">Built with react</Link>
+                        <Link to="/built-with-react">Created by Murtaza</Link>
                     </li>
                 </ul>
             </Scrollbars>

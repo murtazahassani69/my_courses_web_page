@@ -28,7 +28,7 @@ const Home = ({ children }) => {
                             🔔 subscribing to my youtube channel
                         </a>{" "}
                         and give a{" "}
-                        <a href="https://github.com/codegeous/react-component-depot">
+                        <a href="https://github.com/codebymurtaza">
                             ⭐ star on github
                         </a>
                     </div>}
@@ -39,7 +39,7 @@ const Home = ({ children }) => {
             </div>
 
             <a
-                href="https://github.com/codegeous/react-component-depot"
+                href="https://github.com/codebymurtaza"
                 target="_blank"
             >
                 <svg

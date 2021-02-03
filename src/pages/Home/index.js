@@ -7,18 +7,16 @@ const Home = () => {
         <>
             <div className="row text-center">
                 <div className="col">
-                    <h3>Welcome to react component depot</h3>
+                    <h3>Welcome to Code By Murtaza Hassani</h3>
                     <p>
-                        A collection of various components with the video
-                        tutorials on building them
+                    I AM FULL STACK WEB DEVELOPMENT, AND I'M TEACHING YOUNG PEOPLE HOW  TO CODE.
                     </p>
                     <p>
-                        Please visit the youtube channel for more videos on
-                        react and some components
+                        Please visit the youtube channel for more videos
                     </p>
                     <p className="d-inline">
                         <a
-                            href="https://www.youtube.com/channel/UCdItDI6oTgPW7l9WOJI7ItA/videos"
+                            href="https://www.youtube.com/channel/UC7SJSnUPeGPidd9YNgCKLkA"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
