@@ -1,5 +1,4 @@
-const GIT_REPO =
-  "https://github.com/codegeous/react-component-depot/tree/master/src/";
+const GIT_REPO = "https://github.com/codebymurtaza/Digital-Clock";
 const YOUTUBE_BASE = "https://youtu.be/";
 
 export default {
@@ -86,10 +85,7 @@ export default {
       tutorial: `${YOUTUBE_BASE}aBWwJ4ibpps`,
       code: `${GIT_REPO}pages/SearchFilter/index.js`,
     },
-    accordion: {
-      tutorial: `${YOUTUBE_BASE}AjQctXfmOqw`,
-      code: `${GIT_REPO}pages/AccordionDemo/index.js`,
-    },
+
     leafletBasic: {
       tutorial: `${YOUTUBE_BASE}i9oX1upSKjI`,
       code: `${GIT_REPO}pages/Leaflet/basic.js`,
@@ -118,35 +114,23 @@ export default {
       tutorial: `${YOUTUBE_BASE}uhgQFqr9ezQ`,
       code: `${GIT_REPO}pages/ImageZoom/index.js`,
     },
-    starRating: {
-      tutorial: `${YOUTUBE_BASE}nErdlbLWqtA`,
-      code: `${GIT_REPO}pages/Rating/index.js`,
-    },
+    // starRating: {
+    //   tutorial: `${YOUTUBE_BASE}nErdlbLWqtA`,
+    //   code: `${GIT_REPO}pages/Rating/index.js`,
+    // },
   },
   youtubeVideos: [
     {
-      title: "Full page loading spinner for API calls in ReactJS with Redux",
-      id: "vCs50MV-TbM",
+      title: "HOW TO CREATE A  DIGITAL CLOCK",
+      id: "pPMO5g5aTaE",
     },
     {
-      title: "File Upload with progress bar in React JS and axios",
-      id: "Ti8QNiRRzOA",
+      title: "How to make a pop-up page using html CSS and JavaScript",
+      id: "I4uqXKwSBqM",
     },
     {
-      title: "Add loading spinner for buttons in reactjs",
-      id: "vgDObZGhQuw",
-    },
-    {
-      title: "Display fallback image for a broken image link in reactjs ",
-      id: "90P1_xCaim4",
-    },
-    {
-      title: "Material style preloader for image tag in react js",
-      id: "GBHBjv6xfY4",
-    },
-    {
-      title: "Building a search filter in reactjs",
-      id: "RM_nXOyHwN0",
+      title: "How to create an Image Hover project",
+      id: "Op7sI9ETays",
     },
   ],
 };

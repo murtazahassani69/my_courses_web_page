@@ -16,7 +16,7 @@ const Home = () => {
                     </p>
                     <p className="d-inline">
                         <a
-                            href="https://www.youtube.com/channel/UC7SJSnUPeGPidd9YNgCKLkA"
+                            href="https://www.youtube.com/channel/UCHhPeJmlkhhsK5STLiks9jA"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

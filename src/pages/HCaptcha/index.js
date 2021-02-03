@@ -27,7 +27,7 @@ const Signup = () => {
 
         Axios.post(AppConfig.api + "user/signup-with-hcaptcha", {
             token,
-            email: "ghjsfgjs@fgdg.dsgds"
+            email: "code@gmail.com"
         })
             .then(resp => {
                 alert("Sign up success");

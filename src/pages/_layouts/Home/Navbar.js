@@ -41,7 +41,7 @@ export const Navbar = () => {
 
                         <div
                             class="g-ytsubscribe ml-3"
-                            data-channelid="UC7SJSnUPeGPidd9YNgCKLkA"
+                            data-channelid="UCHhPeJmlkhhsK5STLiks9jA"
                             data-layout="default"
                             data-count="default"
                             style={{ height: "35px" }}
@@ -52,7 +52,7 @@ export const Navbar = () => {
                 <ul className="list-unstyled components">
                     <p>
                         <a
-                            href="https://www.youtube.com/channel/UC7SJSnUPeGPidd9YNgCKLkA"
+                            href="https://www.youtube.com/channel/UCHhPeJmlkhhsK5STLiks9jA"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -34,26 +34,36 @@ const routes = [
     enabled: true,
     path: "/map",
     component: GoogleMaps,
-    navbar: "google-map-react",
+    navbar: "Get courses",
     child: [
-      {
-        name: "Basic Google Maps",
-        path: "/map",
-      },
       {
         name: "Custom Google Maps",
         path: "/map/custom-style",
       },
     ],
   },
+
+  // {
+  //   enabled: true,
+  //   path: "/signup",
+  //   component: Signup,
+  //   navbar: "Signup Form",
+  //   child: null,
+  // },
+  //   {
+  //   enabled: true,
+  //   path: "/hcaptcha",
+  //   component: Hcaptcha,
+  //   navbar: "HCaptcha",
+  //   child: null,
+  // },
   {
     enabled: true,
-    path: "/signup",
-    component: Signup,
-    navbar: "Signup Form",
+    path: "/info_pages",
+    component: AccordionDemo,
+    navbar: "Informations",
     child: null,
   },
-  
   // {
   //   enabled: true,
   //   path: "/button-loader",
@@ -202,34 +212,36 @@ const routes = [
   //   navbar: "Tree List",
   //   child: null,
   // },
-  {
-    enabled: true,
-    path: "/leaflet",
-    component: Leaflet,
-    navbar: "React Leaflet",
-    child: [
-      {
-        name: "Basic Map",
-        path: "/leaflet/basic",
-      },
-      {
-        name: "Markers",
-        path: "/leaflet/markers",
-      },
-      {
-        name: "Get User Location",
-        path: "/leaflet/user-location",
-      },
-      {
-        name: "Draw Shapes",
-        path: "/leaflet/draw-on-map",
-      },
-      {
-        name: "Draw Polygon",
-        path: "/leaflet/polygon",
-      },
-    ],
-  },
+
+  // {
+  //   enabled: true,
+  //   path: "/leaflet",
+  //   component: Leaflet,
+  //   navbar: "React Leaflet",
+  //   child: [
+  //     {
+  //       name: "Basic Map",
+  //       path: "/leaflet/basic",
+  //     },
+  //     {
+  //       name: "Markers",
+  //       path: "/leaflet/markers",
+  //     },
+  //     {
+  //       name: "Get User Location",
+  //       path: "/leaflet/user-location",
+  //     },
+  //     {
+  //       name: "Draw Shapes",
+  //       path: "/leaflet/draw-on-map",
+  //     },
+  //     {
+  //       name: "Draw Polygon",
+  //       path: "/leaflet/polygon",
+  //     },
+  //   ],
+  // },
+
   {
     enabled: true,
     path: "/rating",

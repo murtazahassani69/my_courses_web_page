@@ -4,50 +4,53 @@ import Accordion from "components/Accordion";
 import ExternalInfo from "components/ExternalInfo";
 
 const AccordionDemo = () => {
-    const AccordionData = [
-        {
-            title: "Why can’t I sign in?",
-            content:
-                "Make sure you’re trying to sign in to the right application system. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt.",
-        },
-        {
-            title: "Where can I find out about funding?",
-            content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt. Ea?",
-        },
-        {
-            title: "How can I make a change to my application?",
-            content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt. Ea?",
-        },
-    ];
+  const AccordionData = [
+    {
+      title: "How you can access to my courses?",
+      content:
+        "Make sure you’re trying to sign in to the right application system. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt. Make sure you’re trying to sign in to the right application system. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt.",
+    },
+    {
+      title: "Where can I find out about funding?",
 
-    return (
-        <>
-            <Header title="Building Accordion in ReactJS" />
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt. Ea? Make sure you’re trying to sign in to the right application system. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt.",
+      h1: "Hello  this is a title",
+    },
+    {
+      title: "How can I make a change to my application?",
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt. Ea? Make sure you’re trying to sign in to the right application system. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumharum ducimus voluptatem dolorum id, natus deleniti ratione laborum voluptatibus! Commodi placeat, voluptatem doloribus iure aliquid sint dolores qui incidunt.",
+      new_para: "Hello  this is a title",
+    },
+  ];
 
-            <ExternalInfo page="accordion" />
+  return (
+    <>
+      <Header title="How to use and access to all the information?" />
 
-            <div className="row justify-content-center">
-                <div className="col-lg-6 text-center">
-                    <div className="row">
-                        <div className="col-12">
-                            <h3>Frequently Asked Questions</h3>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-12 text-left">
-                            <Accordion data={AccordionData} />
-                        </div>
-                        <div className="col-12 text-left mt-4">
-                            <h4>Accordion with "multiple" option</h4>
-                            <Accordion data={AccordionData} multiple={true} />
-                        </div>
-                    </div>
-                </div>
+      <ExternalInfo page="accordion" />
+
+      <div className="row justify-content-center">
+        <div className="col-lg-10 text-left">
+          <div className="row">
+            <div className="col-12">
+              <h3>Frequently Asked Questions</h3>
             </div>
-        </>
-    );
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-12 text-left">
+              <Accordion data={AccordionData} />
+            </div>
+            <div className="col-12 text-left mt-4">
+              <h4>Accordion with "multiple" option</h4>
+              <Accordion data={AccordionData} multiple={true} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default AccordionDemo;

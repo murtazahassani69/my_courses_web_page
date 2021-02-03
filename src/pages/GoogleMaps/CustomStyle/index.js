@@ -24,14 +24,6 @@ const GoogleMaps = () => {
                         billing restriction
                     </h4>
                     <p>
-                        However you can clone this{" "}
-                        <a
-                            href="https://github.com/codegeous/react-component-depot"
-                            _target="blank"
-                            className="alert-link"
-                        >
-                            repo
-                        </a>{" "}
                         and use your own google map API key to check the demo.
                         Update your google API key in{" "}
                         <strong>src/App.config.js</strong> after cloning the

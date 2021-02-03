@@ -93,7 +93,7 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #920101;
+    background: #53669b;
     color: #fff;
 }
 
@@ -103,12 +103,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 40px 20px 20px 20px;
-    background: #770101;
+    background: #443e3e;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #920101;
+    border-bottom: 1px solid #443e3e;
 }
 
 #sidebar ul p {
